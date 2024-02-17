@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
-import  django_heroku
+import django_heroku
 import os
 import dj_database_url
 
@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'dermaai.wsgi.application'
 
 DATABASES = {
 'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dermadb',
-        'USER': 'postgres',
-        'PASSWORD': 'hh100200',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd5b0b0se9kkgnb',
+        'USER': 'ctwomadxgytpec',
+        'PASSWORD': '20c3cbb1b20c43737049b02583b9fdf3d90c6d39b15e199462067a67973f04bd',
+        'HOST': 'ec2-34-242-154-118.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 
